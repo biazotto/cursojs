@@ -1,10 +1,10 @@
 function pessoa(){
     this.idade = 0
-
+    const self = this // cria uma constante pq conseguimos apontar sempre para o this da função
     setInterval(function(){
-        this.idade++
-        console.log(this.idade)
-    }./*bind(this)*/, 1000)
+        self.idade++
+        console.log(self.idade)
+    }/*.bind(self)*/, 1000)
 }
 
 new pessoa
