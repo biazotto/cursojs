@@ -39,8 +39,12 @@ const f2 = CriarFuncionario('Maria', 2000, 10)
 console.log(f1.getSalario())
 console.log(f2.getSalario())
 
-//Função Create     
+//Função Object.Create     
 const filha = Object.create(null)
 filha.nome = 'Ana'
 console.log(filha)
 
+//Uma função famosa que retorna um Objeto
+
+const fromJson = JSON.parse('{"info": "Sou um JSON"}')
+console.log(fromJson.info)
