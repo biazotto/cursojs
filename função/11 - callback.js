@@ -5,5 +5,5 @@ function imprimir (nome , indice) {
 }
 
 fabricantes.forEach(imprimir)
-fabricantes.forEach(function (a) {console.log(a)} ) //funcao anomina da pra colocar no forEach
+fabricantes.forEach(function (a) {console.log(a)} ) //funcao anonima da pra colocar no forEach
 fabricantes.forEach(a => console.log(a)) // o parametro equivale ao valor que tem nos indices

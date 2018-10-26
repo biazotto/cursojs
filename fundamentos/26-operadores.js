@@ -59,10 +59,10 @@ console.log(num1 === num2) // agora o num2 ta subtraido 1 e a comparação da fa
 
 //operadores tenários
 //usando arrow function
-const resultado = nota => nota >=7 ? 'Passou' : 'Não Passou'
+const resultado = nota => nota >= 7 ? 'Passou' : 'Não Passou'
 console.log(resultado(8))
 console.log(resultado(6.9))
 //usando em uma váriavel direto
 let nota = 10
-const status = nota >=7 ? 'Passou' : 'Não Passou'
+const status = nota >= 7 ? 'Passou' : 'Não Passou'
 console.log(status)
